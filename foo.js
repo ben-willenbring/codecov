@@ -2,6 +2,6 @@
 
 module.exports = {
     foo: () => {
-        return 'I am a function within foo.js';
-    }
+        return 'I am a function within foo.js'
+    },
 }
