@@ -28,9 +28,6 @@ jobs:
               run: npm run test
 
             - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@v1
-
-            - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@v1
+              uses: codecov/codecov-action@v2
               with:
-                  token: ${{ secrets.TOKEN }}
+                  verbose: true # optional (default = false)
